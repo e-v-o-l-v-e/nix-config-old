@@ -1,7 +1,7 @@
 { ... }:
 {
   imports = [
-    ./kitty.nix
+    # ./kitty.nix
     ./gaming.nix
     ./packages.nix
   ];

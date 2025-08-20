@@ -9,8 +9,7 @@ let
 in
 {
   config = {
-    # programs = lib.mkIf cfg.hyprland.enable {
-    programs = lib.mkIf config.programs.hyprland.enable {
+    programs = lib.mkIf config.gui.hyprland.enable {
       hyprland = {
         portalPackage = pkgs.xdg-desktop-portal-hyprland;
         xwayland.enable = true;

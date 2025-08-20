@@ -1,7 +1,7 @@
 {...}: {
   imports = [
     ./btop.nix
-    ./fish.nix
+    # ./fish.nix
     ./git.nix
     ./gh.nix
     ./lsd.nix

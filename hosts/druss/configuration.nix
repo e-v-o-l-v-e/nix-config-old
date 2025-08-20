@@ -29,12 +29,7 @@
 
       programs.waybar.enable = false;
 
-      gui.stylix.enable = false;
-      gui.stylix.colorSchemeDark = "tokyo-night-dark";
-      gui.stylix.colorSchemeLight = "one-light";
-
-      # if you want only one theme you can just uncomment this line
-      # gui.stylix.colorScheme = "gruvbox-dark-medium";
+      gui.hyprland.enable = true;
 
       gaming.enable = true;
       gaming.full = true;
@@ -51,7 +46,7 @@
 
         programs.zen-browser.enable = true;
 
-        wayland.windowManager.hyprland.enable = false; # manage hyprland settings with home-manager
+        # wayland.windowManager.hyprland.enable = false; # manage hyprland settings with home-manager
 
         # home-manager version at the time of first install, do not change
         home.stateVersion = "25.05";
@@ -68,7 +63,7 @@
         # Desktop #
         login-manager = "sddm";
 
-        programs.hyprland.enable = false;
+        programs.hyprland.enable = true;
 
         services.desktopManager.plasma6.enable = true;
 

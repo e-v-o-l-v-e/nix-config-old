@@ -145,5 +145,10 @@
     };
 
     vpn-confinement.url = "github:Maroka-chan/VPN-Confinement";
+
+    illogical-impulse = {
+      url = "github:xBLACKICEx/end-4-dots-hyprland-nixos";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 }
